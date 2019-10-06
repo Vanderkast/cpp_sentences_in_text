@@ -13,6 +13,19 @@ public:
     virtual void forward() {}
 };
 
+class StringCursor : public Cursor {
+private:
+    std::string data;
+    int pos;
+
+public:
+    StringCursor(std::string);
+    
+    char current();
+    
+    void forward();
+};
+
 class FileCursor : public Cursor {
 private:
     std::ifstream file;

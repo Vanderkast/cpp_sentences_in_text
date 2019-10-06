@@ -26,3 +26,19 @@ void FileCursor::forward(){
     else
         this->file >> this->cur;
 }
+
+StringCursor::StringCursor(std::string data) {
+    this->data = data;
+    this->pos = 0;
+}
+
+char StringCursor::current(){
+    if(pos >= data.size())
+        return END;
+    else
+        return data[pos];
+}
+
+void StringCursor::forward(){
+    ++pos;
+}

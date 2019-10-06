@@ -32,6 +32,7 @@ class EndOfFile {};
 
 std::string completeSentence(Sentence* sentence, Cursor* cursor);
 std::string completeWord(Word*, Cursor*);
+
 void skipSpaces(Cursor*);
 
 std::vector<std::string> SentenceFounder::proceed(){
