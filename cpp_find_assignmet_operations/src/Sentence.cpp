@@ -60,6 +60,7 @@ std::string completeSentence(Sentence* sentence, Cursor* cursor){
             readSentence.append(filledWord);
         } catch (ErrorInWord _){
             sentence->reset();
+            readSentence.clear();
         } catch (EndOfFile e){
             sentence->reset();
             delete word;

@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		8486DE7222AC0F61004CD5C4 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8486DE7122AC0F61004CD5C4 /* main.cpp */; };
+		84F24377234A91310078E0DE /* Word.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84F24368234A91310078E0DE /* Word.cpp */; };
+		84F24378234A91310078E0DE /* Sentence.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84F24369234A91310078E0DE /* Sentence.cpp */; };
+		84F24379234A91310078E0DE /* Cursor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84F2436A234A91310078E0DE /* Cursor.cpp */; };
+		84F2437A234A91310078E0DE /* SentenceFiller.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84F2436B234A91310078E0DE /* SentenceFiller.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +29,19 @@
 /* Begin PBXFileReference section */
 		8486DE6E22AC0F61004CD5C4 /* cpp_find_assignmet_operations */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = cpp_find_assignmet_operations; sourceTree = BUILT_PRODUCTS_DIR; };
 		8486DE7122AC0F61004CD5C4 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		84F24368234A91310078E0DE /* Word.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Word.cpp; sourceTree = "<group>"; };
+		84F24369234A91310078E0DE /* Sentence.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Sentence.cpp; sourceTree = "<group>"; };
+		84F2436A234A91310078E0DE /* Cursor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Cursor.cpp; sourceTree = "<group>"; };
+		84F2436B234A91310078E0DE /* SentenceFiller.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SentenceFiller.cpp; sourceTree = "<group>"; };
+		84F2436D234A91310078E0DE /* sentence.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sentence.txt; sourceTree = "<group>"; };
+		84F2436E234A91310078E0DE /* paths.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = paths.txt; sourceTree = "<group>"; };
+		84F2436F234A91310078E0DE /* text1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = text1.txt; sourceTree = "<group>"; };
+		84F24370234A91310078E0DE /* text2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = text2.txt; sourceTree = "<group>"; };
+		84F24371234A91310078E0DE /* test.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test.txt; sourceTree = "<group>"; };
+		84F24373234A91310078E0DE /* SentenceFiller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SentenceFiller.h; sourceTree = "<group>"; };
+		84F24374234A91310078E0DE /* Sentence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sentence.h; sourceTree = "<group>"; };
+		84F24375234A91310078E0DE /* Cursor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cursor.h; sourceTree = "<group>"; };
+		84F24376234A91310078E0DE /* Word.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Word.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +74,46 @@
 		8486DE7022AC0F61004CD5C4 /* cpp_find_assignmet_operations */ = {
 			isa = PBXGroup;
 			children = (
+				84F24372234A91310078E0DE /* lib */,
+				84F2436C234A91310078E0DE /* res */,
+				84F24367234A91310078E0DE /* src */,
 				8486DE7122AC0F61004CD5C4 /* main.cpp */,
 			);
 			path = cpp_find_assignmet_operations;
+			sourceTree = "<group>";
+		};
+		84F24367234A91310078E0DE /* src */ = {
+			isa = PBXGroup;
+			children = (
+				84F24368234A91310078E0DE /* Word.cpp */,
+				84F24369234A91310078E0DE /* Sentence.cpp */,
+				84F2436A234A91310078E0DE /* Cursor.cpp */,
+				84F2436B234A91310078E0DE /* SentenceFiller.cpp */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		84F2436C234A91310078E0DE /* res */ = {
+			isa = PBXGroup;
+			children = (
+				84F2436D234A91310078E0DE /* sentence.txt */,
+				84F2436E234A91310078E0DE /* paths.txt */,
+				84F2436F234A91310078E0DE /* text1.txt */,
+				84F24370234A91310078E0DE /* text2.txt */,
+				84F24371234A91310078E0DE /* test.txt */,
+			);
+			path = res;
+			sourceTree = "<group>";
+		};
+		84F24372234A91310078E0DE /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				84F24373234A91310078E0DE /* SentenceFiller.h */,
+				84F24374234A91310078E0DE /* Sentence.h */,
+				84F24375234A91310078E0DE /* Cursor.h */,
+				84F24376234A91310078E0DE /* Word.h */,
+			);
+			path = lib;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,6 +173,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				8486DE7222AC0F61004CD5C4 /* main.cpp in Sources */,
+				84F24379234A91310078E0DE /* Cursor.cpp in Sources */,
+				84F2437A234A91310078E0DE /* SentenceFiller.cpp in Sources */,
+				84F24378234A91310078E0DE /* Sentence.cpp in Sources */,
+				84F24377234A91310078E0DE /* Word.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

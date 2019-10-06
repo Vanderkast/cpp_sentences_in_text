@@ -17,7 +17,6 @@ void SentenceFiller::fill(Sentence* sentence){
     std::vector<std::string> words;
     std::string s;
     while (std::getline(stream, s)) {
-        std::cout << s;
         words.push_back(s);
     }
     sentence->setWords(words);

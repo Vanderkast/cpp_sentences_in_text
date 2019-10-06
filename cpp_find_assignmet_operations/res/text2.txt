@@ -1,2 +1,1 @@
-const
-char * Integer  = "imperdiet, risus id luctus bibendum, erat";
+const const char*lol="make_noize";const char*hello="world";
