@@ -1,0 +1,3 @@
+/Users/admin/Documents/GitHub/cfao/cpp_find_assignmet_operations/cpp_find_assignmet_operations/res/sentence.txt
+
+/Users/admin/Documents/GitHub/cfao/cpp_find_assignmet_operations/cpp_find_assignmet_operations/res/test.txt

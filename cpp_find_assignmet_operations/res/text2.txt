@@ -1,0 +1,2 @@
+const
+char * Integer  = "imperdiet, risus id luctus bibendum, erat";
